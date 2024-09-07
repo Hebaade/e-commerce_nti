@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>OneTech</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>OneTech</h1>
+            <div class="search">
+                <input type="text" placeholder="search" id="search">
+                <select name="select" id="select">
+                    <option value="">
+                        All Categories
+                    </option>
+                    <option value="">
+                        Computers
+                    </option>
+                    <option value="">
+                        Smartphones
+                    </option>
+                </select>
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="cart-wish">
+                <div class="wish">
+                    <div>
+                        <img src="img/wishlist_cart/download.webp" alt="wishlist">
+
+                    </div>
+                    <div>
+                        <a href="wishlist.html">Wishlist</a>
+                    </div>
+                </div>
+                <div class="Cart">
+                    <div class="img-cont">
+                        <img src="img/wishlist_cart/download (4).webp" alt="wishlist">
+                        <p id="cartNumber"></p>
+                    </div>
+                    <div>
+                        <a href="cart.html">Cart</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- End of the Header -->
+    <!-- Start of second header -->
+    <section class="second-header">
+        <div class="container">
+            <div class="categories">
+                <h2> <i class="fa-solid fa-bars m-1"></i>Categories</h2>
+                <ul class="catsList">
+                    <li>All Categories</li>
+                    <li>Smartphones</li>
+                    <li>Tablets</li>
+                    <li>Laptops</li>
+                    <li>Cameras</li>
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li><input type="text" placeholder="search..." id="search1"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#super-deals">Super Deals</a></li>
+                    <li><a href="#new-arrival">New Arrival</a></li>
+                    <li class="pages"><a href="#">Pages</a>
+                        <ol class="pagesList">
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <h2 id="Menu">Menu <i class="fa-solid fa-bars m-1"></i></h2>
+        </div>
+    </section>
+    <!-- end of second header -->
+    <!-- Start of landing section -->
+    <section class="landing">
+        <div class="container">
+            <div class="left-side
+                ">
+                <h1>New Era Of Smartphones</h1>
+                <p><span class="old-price">$450</span> <span class="new-price">$350</span></p>
+                <button>Shop Now</button>
+            </div>
+            <div class="right-side
+                ">
+                <img src="img/xbanner_product.png.pagespeed.ic.8YoeI51pih.webp" alt="landing img" />
+            </div>
+        </div>
+    </section>
+    <!-- End of landing section -->
+    <!-- Start of free section -->
+    <div class="free">
+        <div class="container">
+            <div class="item">
+                <div class="img-cont">
+                    <img src="img/characteristics/download.webp" alt="">
+                </div>
+                <div class="info">
+                    <h6>Free Delivery</h6>
+                    <p>From $50</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-cont">
+                    <img src="img/characteristics/download (1).webp" alt="">
+                </div>
+                <div class="info">
+                    <h6>Free Delivery</h6>
+                    <p>From $50</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-cont">
+                    <img src="img/characteristics/download (2).webp" alt="">
+                </div>
+                <div class="info">
+                    <h6>Free Delivery</h6>
+                    <p>From $50</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img-cont">
+                    <img src="img/characteristics/download (3).webp" alt="">
+                </div>
+                <div class="info">
+                    <h6>Free Delivery</h6>
+                    <p>From $50</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of free section -->
+    <!-- Start of deals section -->
+    <section id="super-deals" class="super-deals">
+        <div class="container">
+            <div class="left-sec">
+                <div id="carouselExampleAutoplaying" class="carousel slide super-slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="address">
+                            <h4>Super Deals</h4>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="slide">
+                                <div>
+                                    <img src="img/deals-featured/xdeals.png.pagespeed.ic.nmhfwwkKMA.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="info">
+                                    <div>
+                                        <p>Headphone</p>
+                                        <h5>Beoplay H7</h5>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; align-items: center;">
+                                        <p><span class="old-price">$300</span></p>
+                                        <p><span class="new-price">$250</span></p>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="opacity-50">Available:6</span>
+                                    <span class="opacity-50">Already sold:26</span>
+                                </div>
+                                <div class="progress  m-2">
+                                    <div class="progress-percent"></div>
+                                </div>
+                                <div class="info">
+                                    <p>Harry Up <span class="opacity-50 small">Offer Ends in:</span></p>
+                                    <p>This Product isn't Available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide">
+                                <div>
+                                    <img src="img/deals-featured/xdeals.png.pagespeed.ic.nmhfwwkKMA.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="info">
+                                    <div>
+                                        <p>Headphone</p>
+                                        <h5>Beoplay H7</h5>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; align-items: center;">
+                                        <p><span class="old-price">$300</span></p>
+                                        <p><span class="new-price">$250</span></p>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="opacity-50">Available:6</span>
+                                    <span class="opacity-50">Already sold:26</span>
+                                </div>
+                                <div class="progress  m-2">
+                                    <div class="progress-percent"></div>
+                                </div>
+                                <div class="info">
+                                    <p>Harry Up <span class="opacity-50 small">Offer Ends in:</span></p>
+                                    <p>This Product isn't Available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide">
+                                <div>
+                                    <img src="img/deals-featured/xdeals.png.pagespeed.ic.nmhfwwkKMA.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="info">
+                                    <div>
+                                        <p>Headphone</p>
+                                        <h5>Beoplay H7</h5>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; align-items: center;">
+                                        <p><span class="old-price">$300</span></p>
+                                        <p><span class="new-price">$250</span></p>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="opacity-50">Available:6</span>
+                                    <span class="opacity-50">Already sold:26</span>
+                                </div>
+                                <div class="progress  m-2">
+                                    <div class="progress-percent"></div>
+                                </div>
+                                <div class="info">
+                                    <p>Harry Up <span class="opacity-50 small">Offer Ends in:</span></p>
+                                    <p>This Product isn't Available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="carousel-control-prev text-black small" type="button"
+                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-black small" aria-hidden="true"></span>
+                            <span class="visually-hidden text-black small">Previous</span>
+                        </button>
+                        <button class="carousel-control-next text-black small" type="button"
+                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon text-black small" aria-hidden="true"></span>
+                            <span class="visually-hidden text-black small">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sec">
+                <div class="top-sec">
+                    <button id="featured_deals">Featured</button>
+                    <button id="onSale_deals">On Sale</button>
+                    <button id="bestRate_deals">Best Rate</button>
+                </div>
+                <div class="products" id="products">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of deals section -->
+    <!-- Start of categories section -->
+    <section class="catgories-sec">
+        <div class="container">
+            <div class="left-sec">
+                <h3 class="fs-1">Popular Categories</h3>
+                <button>Full Categories</button>
+            </div>
+            <div class="right-sec">
+                <div class="item">
+                    <img src="img/category/xpopular_1.png.pagespeed.ic.iakLDOhA7r.webp" alt="">
+                    <div class="info">
+                        <p class="opacity-50 m-1">Smartphones</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/category/xpopular_2.png.pagespeed.ic.2dscQlBLuy.webp" alt="">
+                    <div class="info">
+                        <p class="opacity-50 m-1">Computer & Laptop</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/category/xpopular_3.png.pagespeed.ic.0uu5Dfk2Gh.webp" alt="">
+                    <div class="info">
+                        <p class="opacity-50 m-1">Gadgets</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/category/xpopular_4.png.pagespeed.ic.2oShzKU_RW.webp" alt="">
+                    <div class="info">
+                        <p class="opacity-50 m-1">Video games & console</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/category/xpopular_5.png.pagespeed.ic.N9JFcEegtU.webp" alt="">
+                    <div class="info">
+                        <p class="opacity-50 m-1">Accessories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start of categories section -->
+    <!-- start of slide2 -->
+    <div class="second-slider">
+        <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide">
+                        <div class="left-sec">
+                            <span class="opacity-50 m-2">Laptop</span>
+                            <h4 class="m-2 fs-1">MakBook Air 13</h4>
+                            <p class="opacity-50 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                                repudiandae?</p>
+                            <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></p>
+                        </div>
+                        <div class="right-sec">
+                            <img src="img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide">
+                        <div class="left-sec">
+                            <span class="opacity-50 m-2">Laptop</span>
+                            <h4 class="m-2 fs-1">MakBook Air 13</h4>
+                            <p class="opacity-50 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                                repudiandae?</p>
+                            <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></p>
+                        </div>
+                        <div class="right-sec">
+                            <img src="img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide">
+                        <div class="left-sec">
+                            <span class="opacity-50 m-2">Laptop</span>
+                            <h4 class="m-2 fs-1">MakBook Air 13</h4>
+                            <p class="opacity-50 m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                                repudiandae?</p>
+                            <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></p>
+                        </div>
+                        <div class="right-sec">
+                            <img src="img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of slide2 -->
+    <!-- Start of new arrival section -->
+    <section class="new-arrival" id="new-arrival">
+        <div class="container">
+            <div class="top-sec">
+                <h5>Hot New Arrivals</h5>
+                <div>
+                    <button id="featuredArrival">Featured</button>
+                    <button id="audioArrival">Audio & Video</button>
+                    <button id="laptopsArrival">Laptops & Computers</button>
+                </div>
+            </div>
+            <div class="bottom-sec">
+                <div class="left-sec products" id="arrivalItems">
+
+                </div>
+                <div class="right-sec" id="rightSec_arrival">
+                    <div class="img-cont">
+                        <img src="img/new-arrivals/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <span class="opacity-50 m-2">Smartphone</span>
+                        <div class="d-flex justify-content-between m-2">
+                            <h6>LUNA Smartphone</h6>
+                            <span>$300</span>
+                        </div>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star-half-stroke"></i></p>
+                        <button class="border-0 w-100 text-white py-2 rounded-1" style="background-color: #0099cc;">Add
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of new arrival section -->
+    <!-- Start of best seller section -->
+    <section class="best-seller">
+        <div class="container">
+            <div class="top-sec">
+                <h5>Hot Best seller</h5>
+                <div>
+                    <button id="featuredSeller">Featured</button>
+                    <button id="onSaleSeller">On Sale</button>
+                    <button id="bestRateSeller">Best Rate</button>
+                </div>
+            </div>
+            <div class="bottom-sec">
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xbest_2.png.pagespeed.ic.GT_naP4XUu.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xbest_5.png.pagespeed.ic.HTKJQ0sBzB.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xview_3.jpg.pagespeed.ic.HLpVYh24-I.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xview_1.jpg.pagespeed.ic.c7PizLSOMV.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-cont">
+                        <img src="img/best-seller/xview_4.jpg.pagespeed.ic.gcfPB3V9Wh.webp" alt="img">
+                    </div>
+                    <div class="info">
+                        <p class="opacity-50 m-2">Phone</p>
+                        <p class="m-2 fw-bold">Xiaomi Redmi Note 4</p>
+                        <p class="m-2"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i></p>
+                        <p class="m-2"><span class="new-price">$230</span> <span class="old-price">$500</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of best seller section -->
+    <!-- start of trends section -->
+    <section class="trends">
+        <div class="container">
+            <div class="item">
+                <div class="info">
+                    <p class="fw-bold fs-5">Trends 2018</p>
+                    <p class="opacity-75">Lorem ipsum dolor,distinctio ducimus quasi!</p>
+                </div>
+                <div class="img-cont">
+                    <img src="img/trending/xadv_2.png.pagespeed.ic.JgJKs9KYy_.webp" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="info">
+                    <p class="fw-bold fs-5">Trends 2018</p>
+                    <p class="opacity-75">Lorem ipsum dolor,distinctio ducimus quasi!</p>
+                </div>
+                <div class="img-cont">
+                    <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="info">
+                    <p class="fw-bold fs-5">Trends 2018</p>
+                    <p class="opacity-75">Lorem ipsum dolor,distinctio ducimus quasi!</p>
+                </div>
+                <div class="img-cont">
+                    <img src="img/trending/xadv_3.png.pagespeed.ic.8YIssqGZh0.webp" , alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End of trends section -->
+    <!-- start of trends-slider section -->
+    <section class="trends-slider">
+        <div class="container ">
+            <div class="top-sec my-2">
+                <p class="fs-3 fw-bold">Trends in 2024</p>
+            </div>
+            <div class="slider-cont ">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4"
+                    centered-slides="true" space-between="20" grab-cursor="true">
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_2.png.pagespeed.ic.JgJKs9KYy_.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_3.png.pagespeed.ic.8YIssqGZh0.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love" ></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love" ></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_3.png.pagespeed.ic.8YIssqGZh0.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xtrends_2.jpg.pagespeed.ic.qX9onP8wVn.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_3.png.pagespeed.ic.8YIssqGZh0.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xtrends_2.jpg.pagespeed.ic.qX9onP8wVn.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_3.png.pagespeed.ic.8YIssqGZh0.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xtrends_2.jpg.pagespeed.ic.qX9onP8wVn.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/trending/xadv_1.png.pagespeed.ic.ecBWb3SJqG.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <span class="opacity-50 m-1 ">Smartphone</span>
+                                <h5 class="m-1">Jump White</h5>
+                                <p class="new-price text-center">$200</p>
+                            </div>
+                            <i class="fa-solid fa-heart love"></i>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end of trends-slider section -->
+    <!-- start of reviews section -->
+    <section class="reviews">
+        <div class="container ">
+            <div class="top-sec my-2">
+                <p class="fs-4 fw-bold">Latest Reviews</p>
+            </div>
+            <div class="slider-cont ">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4"
+                    centered-slides="true" space-between="20" grab-cursor="true">
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_1.jpg.pagespeed.ic.c7PizLSOMV.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_2.jpg.pagespeed.ic.C2lAFOmOFR.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_3.jpg.pagespeed.ic.HLpVYh24-I.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_4.jpg.pagespeed.ic.gcfPB3V9Wh.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_5.jpg.pagespeed.ic.LXZD3f2D0h.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_6.jpg.pagespeed.ic.A0_NjsZwto.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide text-center">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_1.jpg.pagespeed.ic.c7PizLSOMV.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+                                <h5 class="m-1">Jump White</h5>
+                                <p><span class="mx-1"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></span> <span class="small">2 days ago</span></p>
+                            </div>
+                            <p class="opacity-50 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim inventore quibusdam corporis architecto porro veniam.</p>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end of reviews section -->
+     <!-- start of recently viewed  section-->
+     <section class="trends-slider" style="    background-color: #eff6fa;">
+        <div class="container ">
+            <div class="top-sec my-2">
+                <p class="fs-3 fw-bold">Recently Viewed</p>
+            </div>
+            <div class="slider-cont ">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4"
+                    centered-slides="true" space-between="20" grab-cursor="true">
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_2.jpg.pagespeed.ic.C2lAFOmOFR.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_1.jpg.pagespeed.ic.c7PizLSOMV.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_5.jpg.pagespeed.ic.LXZD3f2D0h.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_6.jpg.pagespeed.ic.A0_NjsZwto.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_4.jpg.pagespeed.ic.gcfPB3V9Wh.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_2.jpg.pagespeed.ic.C2lAFOmOFR.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_1.jpg.pagespeed.ic.c7PizLSOMV.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_5.jpg.pagespeed.ic.LXZD3f2D0h.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_6.jpg.pagespeed.ic.A0_NjsZwto.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <div class="slide">
+                            <div class="img-cont">
+                                <img src="img/recently-viewed/xview_4.jpg.pagespeed.ic.gcfPB3V9Wh.webp" alt="">
+                            </div>
+                            <div class=" mt-2 text-center">
+
+                                <p class="text-center"><span class="new-price mx-1">$200</span><span class="old-price m-1">$520</span></p>
+                                <h5 class="m-1">Jump White</h5>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+        </div>
+     </section>
+     <!-- end of recently viewed  section-->
+      <!-- start of new shelter section -->
+       <section class="new-shelter">
+        <div class="container">
+            <div class="left-sec">
+                <div class="img-cont">
+                    <img src="img/telegram.webp" alt="img">
+                </div>
+                <div class="info">
+                    <h5>Sign up for Newsletter</h5>
+                    <p class="opacity-50">...and receive %20 coupon for first shopping.</p>
+                </div>
+            </div>
+            <div class="right-sec d-flex">
+                <input type="text" placeholder="Enter Your Email">
+                <button>Submit</button>
+            </div>
+        </div>
+       </section>
+      <!-- end of new shelter section -->
+       <!-- footer -->
+        <footer>
+            <div class="container">
+                <div>
+                    <h1 style="margin-bottom: 25px;">OneTech</h1>
+                    <p class="small">Got Question? Call Us 24/7</p>
+                    <p style="color: #0099cc;" class="fs-5">+01 234 567 89</p>
+                    <p style="color: #0099cc;" class="fs-5">hebaadelali78@gmail.com</p>
+                    <p class="opacity-50"> Princess Road, London Grester London NW18JR, UK</p>
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div>
+                    <h5>Find It Fast</h5>
+                    <ul>
+
+                        <li>Laptops & Computers</li>
+                        <li>Cameras & Photography</li>
+                        <li>Smart Phones & Tablets</li>
+                        <li>Video Games & Consoles</li>
+                        <li>Waterproof Headphones</li>
+                        <li>Gadgets</li>
+                        <li>Hardware</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Customer</h5>
+                    <ul>
+
+                        <li>My Account</li>
+                        <li>Order Tracking</li>
+                        <li>Wishlist</li>
+                        <li>Customer Services</li>
+                        <li>FAQS</li>
+                        <li>product Support</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+       <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
