@@ -653,7 +653,7 @@ wishList.push(itemsList[index].innerHTML)
 localStorage.setItem("wishList",JSON.stringify(wishList))
 })
 })
-
+// start of up scroll button
 let upbutton = document.getElementById("upBtn");
 window.onscroll = function() {scrollFunction()};
 
@@ -668,3 +668,31 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// End of up scroll button
+// start of search input
+let search =document.getElementById("search")
+let search1 =document.getElementById("search1")
+let prods=document.querySelectorAll(".product")
+let select=document.getElementById("select")
+function filterItems() {
+  for (let i = 0; i < prods.length; i++) {
+    if (prods[i].innerHTML.toLowerCase().includes(search.value.toLowerCase()) && prods[i].innerHTML.toLowerCase().includes(select.value.toLowerCase())) {
+          prods[i].style.display = "block"
+    }
+      else {
+          prods[i].style.display = "none"
+      }
+  }
+}
+document.getElementById("search-btn").addEventListener("click", filterItems)
+function filterItems1() {
+  for (let i = 0; i < prods.length; i++) {
+    if (prods[i].innerHTML.toLowerCase().includes(search1.value.toLowerCase()) ) {
+          prods[i].style.display = "block"
+    }
+      else {
+          prods[i].style.display = "none"
+      }
+  }
+}
+search1.addEventListener("input", filterItems1)
