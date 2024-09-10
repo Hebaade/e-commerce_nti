@@ -132,6 +132,7 @@ header .cart-wish p {
 
 @media screen and (max-width: 992px) {
     header .container {
+        padding: 5px;
         flex-wrap: wrap;
     }
 
@@ -357,6 +358,7 @@ nav ul li a {
 @media screen and (max-width: 992px) {
     .landing .container {
         flex-wrap: wrap;
+        padding: 10px;
 
     }
 
@@ -565,7 +567,7 @@ nav ul li a {
         margin-top: 30px;
     }
      .products .product {
-        width: 45%;
+        width: 50%;
 }
 }
 
@@ -1390,3 +1392,22 @@ color: #0099cc;
     outline: 0;
     width:10%;
 }
+/* scroll up btn */
+#upBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;;
+    border: none;
+    outline: none;
+    background-color: #0099cc;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #upBtn:hover {
+    background-color: #296a80;
+  }
